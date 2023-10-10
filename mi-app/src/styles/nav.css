@@ -1,0 +1,33 @@
+ i {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,500;0,900;1,400;1,900&display=swap');
+
+  .content{
+    position: relative;
+  }
+  .Header .Navb  .Carrousel{
+    position: absolute;
+    z-index: 2;
+  }
+
+  #login{
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+ 
+
+  
+  .icono:active {
+    transform: scale(0.9); /* Disminuye el tamaño al hacer clic */
+  }
+  header{
+    background-color: #00C3B7;
+    color: white;
+  }
